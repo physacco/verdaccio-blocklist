@@ -1,0 +1,30 @@
+{
+  "name": "verdaccio-blocklist",
+  "version": "1.0.0",
+  "description": "Verdaccio plugin for banning blacklisted users (or JSON Web Tokens) from accessing the service",
+  "main": "lib/index.js",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "fast-jwt": "^2.2.0"
+  },
+  "keywords": [
+    "verdaccio",
+    "plugin",
+    "middleware",
+    "blocklist"
+  ],
+  "license": "ISC",
+  "repository": "physacco/verdaccio-blocklist",
+  "author": "physacco",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
