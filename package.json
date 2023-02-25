@@ -1,6 +1,6 @@
 {
   "name": "verdaccio-blocklist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Verdaccio plugin for banning blacklisted users (or JSON Web Tokens) from accessing the service",
   "main": "lib/index.js",
   "files": [
